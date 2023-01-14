@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="390c1a3f-f70c-47a7-b314-317521a69ddb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/FilmManeger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FilmManagerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FilmManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FilmManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,24 +44,17 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_directory_selection": "C:/IdeaProject/BillboardManeger2/src/main/java"
+    "last_directory_selection": "C:/IdeaProject/BillboardManeger2/src/main/java",
+    "last_opened_file_path": "C:/IdeaProject/BillboardManeger2"
   }
 }]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean test" />
+      <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FilmManagerTest.test5">
-    <configuration name="FilmManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BillboardManeger2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FilmManagerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.FilmManagerTest.test6">
     <configuration name="FilmManagerTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BillboardManeger2" />
       <option name="PACKAGE_NAME" value="" />
@@ -104,13 +95,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FilmManagerTest.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BillboardManeger2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FilmManagerTest" />
+      <option name="METHOD_NAME" value="test6" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FilmManagerTest.test6" />
+        <item itemvalue="JUnit.FilmManagerTest.test3" />
+        <item itemvalue="JUnit.FilmManagerTest.test1" />
         <item itemvalue="JUnit.FilmManagerTest.test5" />
         <item itemvalue="JUnit.FilmManagerTest.test4" />
-        <item itemvalue="JUnit.FilmManagerTest.test3" />
-        <item itemvalue="JUnit.FilmManagerTest" />
-        <item itemvalue="JUnit.FilmManagerTest.test1" />
       </list>
     </recent_temporary>
   </component>
