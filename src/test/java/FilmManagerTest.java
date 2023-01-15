@@ -91,7 +91,7 @@ public class FilmManagerTest {
 
     @Test
     public void test6() {
-        FilmManeger maneger = new FilmManeger();
+        FilmManeger maneger = new FilmManeger(3);
         maneger.addFilm("Film 1");
         maneger.addFilm("Film 2");
         maneger.addFilm("Film 3");
@@ -105,7 +105,7 @@ public class FilmManagerTest {
         maneger.addFilm("Film 11");
 
 
-        String[] expected = {"Film 11", "Film 10", "Film 9", "Film 8", "Film 7", "Film 6", "Film 5", "Film 4", "Film 3", "Film 2"};
+        String[] expected = {"Film 11", "Film 10", "Film 9"};
         String[] actual = maneger.findLast();
 
         Assertions.assertArrayEquals(expected, actual);
