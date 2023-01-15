@@ -8,6 +8,9 @@ public class FilmManeger {
         this.limit = 10;
 
     }
+    public FilmManeger(int limit) {
+        this.limit = limit;
+    }
 
     public void addFilm(String film) {
         String[] tmp = new String[films.length + 1];
